@@ -1,10 +1,13 @@
 Package: bdsdata
-Title: Data sets for the course: Behavioral Data Science I
+Title: Datasets for Behavioral Data Science I
 Version: 0.0.0.9000
 Authors@R: 
-    person("Nicholas", "Duran", , "nicholas.duran@asu.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Nicholas", "Duran", 
+    , 
+    "nicholas.duran@asu.edu", 
+    role = c("aut", "cre"),
+    comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph). TO BE ADDED.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -1,19 +1,14 @@
-#' Seizure Counts for Epileptics
+#' Parks and Recreation episode information
 #'
-#' @description Thall and Vail (1990) give a data set on two-week 
-#' seizure counts for 59 epileptics. The number of seizures was 
-#' recorded for a baseline period of 8 weeks, and then patients 
-#' were randomly assigned to a treatment group or a control group. 
-#' Counts were then recorded for four successive two-week periods. 
-#' The subject's age is the only covariate.
+#' @description Information on episodes of Parks and Recreation, a mockumentary style sitcom that ran from 2009-2015
 #'
-#' @format his data frame has 295 rows and the following 5 columns:
+#' @format This data frame has 469 rows and the following 5 columns:
 #' \describe{
-#'   \item{y}{the count for the 2-week period.}
-#'   \item{trt}{treatment, "placebo" or "progabide"}
-#'   \item{post}{post treatment. 0 for no, 1 for yes}
-#'   \item{subject}{subject id}
-#'   \item{tj}{time}
+#'   \item{season}{Season number in which each episode was aired. There are a total of seven seasons}
+#'   \item{episode_num}{Episode number within each season}
+#'   \item{imdb_rating}{Average user rating from IMDB, ranges from 0 to 10}
+#'   \item{character}{Chracter is listed if mentioned in the episode's IMDB's description. There are 10 possible characters who appeared in at least two different episode descriptions.}
+#'   \item{desc}{The brief IMDB description for each episode}
 #' }
-#' @source \url{https://cran.r-project.org/package=MASS}
+#' @source Original dataset found on Kaggle.com \url{https://www.kaggle.com/datasets/bcruise/parks-and-recreation-episode-data}
 "parks_rec"

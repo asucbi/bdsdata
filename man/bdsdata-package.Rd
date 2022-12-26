@@ -4,9 +4,9 @@
 \name{bdsdata-package}
 \alias{bdsdata}
 \alias{bdsdata-package}
-\title{bdsdata: Data sets for the course: Behavioral Data Science I}
+\title{bdsdata: Datasets for Behavioral Data Science I}
 \description{
-What the package does (one paragraph).
+What the package does (one paragraph). TO BE ADDED.
 }
 \author{
 \strong{Maintainer}: Nicholas Duran \email{nicholas.duran@asu.edu} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
