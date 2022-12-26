@@ -11,7 +11,7 @@ This data frame has 469 rows and the following 5 columns:
 \item{episode_num}{Episode number within each season}
 \item{imdb_rating}{Average user rating from IMDB, ranges from 0 to 10}
 \item{character}{Chracter is listed if mentioned in the episode's IMDB's description. There are 10 possible characters who appeared in at least two different episode descriptions.}
-\item{desc}{The brief IMDB description for each episode}
+\item{desc}{The brief IMDB description for each episode. It's from this description that main characters from each episode are recorded in the 'character' column.}
 }
 }
 \source{
@@ -21,6 +21,6 @@ Original dataset found on Kaggle.com \url{https://www.kaggle.com/datasets/bcruis
 parks_rec
 }
 \description{
-Information on episodes of Parks and Recreation, a mockumentary style sitcom that ran from 2009-2015
+Information on episodes of Parks and Recreation, a mockumentary style sitcom that ran from 2009-2015.
 }
 \keyword{datasets}
